@@ -1,0 +1,65 @@
+body .header{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+body .header a {
+    text-decoration: none;
+    color: black;
+}
+body > div {
+    position: relative;
+}
+body > div > .camera_comp {
+    position: absolute;
+    top: 20px;
+    width: 500px;
+    left: 50px;
+    border: 2px solid #777;
+    height: 375px;
+    background-color: dimgrey;
+}
+body > div > .camera_comp .camera {
+    width: 100%;
+    display: block;
+}
+
+body > div > .camera_comp .camera.hide {
+    display: none;
+}
+body > div .camera_btn {
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    width: 170px;
+}
+body > div .camera_btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+body > div .recomend_btn {
+    position: absolute;
+    top: 410px;
+    left: 300px;
+    width: 250px;
+}
+body > div .recomend_btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+body > div .init_btn {
+    position: absolute;
+    top: 460px;
+    left: 50px;
+}
+body > div .notice {
+    position: absolute;
+    top: 520px;
+    left: 50px;
+}
+body div .recomended_window{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    width: 500px;
+    height: 500px;
+}
